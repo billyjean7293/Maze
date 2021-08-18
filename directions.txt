@@ -1,0 +1,48 @@
+
+
+Update file header comment blocks
+
+Add includes for file I/O and Strings
+
+Define rectangle pointers for cell structure
+
+Declare a maze variable
+
+Define maze parameter for initializeMaze
+Define file name parameter for initializeMaze
+
+In initializeMaze:
+	read mazeFile into maze.rows and maze.columns
+	
+	allocate storage for the rows in the maze cells collection
+	
+	allocate storage for the columns in the maze cells collection
+
+	read the next walls byte from the file
+	
+	initialize a new cell structure
+	
+	assign new cell to maze at row/column
+
+Declare a mouse variable
+Define mouse parameter for initialize mouse
+
+Update the buildRectangle method to return rectangle pointer
+
+Define maze and mouse parameters for update
+
+Define maze and mouse parameters for render
+
+Draw the cell walls in render
+
+Define mouse parameter for: 
+	lookNext
+	turnNext
+	turnLeft
+	turnRight
+	isFinishedTurning
+	startMoving
+	isFinishedMoving (mouse and maze parameters)
+
+Define maze paramter for isWallOn
+	test for walls on
